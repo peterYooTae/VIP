@@ -13,7 +13,7 @@ sudo nvidia-smi -i 6 -pl 170
 sudo nvidia-smi -i 7 -pl 170
 
 #nohup log
-nohup ./aleo_prover_823 --tcp_server $server_addr --address $wallet  --custom_name $miner_name > /var/log/nohup_log.log 2>&1 &
+#nohup ./aleo_prover_823 --tcp_server $server_addr --address $wallet  --custom_name $miner_name > /var/log/nohup_log.log 2>&1 &
 
 #nohup no log
 nohup ./aleo_prover_823 --tcp_server $server_addr --address $wallet  --custom_name $miner_name  1 >/dev/null  2>&1 &
